@@ -111,6 +111,63 @@ JavaScript allows the use of escape characters to include special characters in 
 */ 
 
 
+/*
+
+* (iii) Bolleans 
+
+
+a boolean data type represents one of the the two values: true or false.
+
+todo #1 Truthy values 
+
+a. all numbers (positive and negative) are truthy exept 0
+b. all strings are truthy exept empty string
+c. the boolean true 
+
+todo #2 Falsy values
+a. 0 
+b. empty string 
+c. NaN 
+d. the boolean false
+e. null 
+f. undefined
+g. 0n 
+
+*/
+
+/*
+* (iv) Undefined -- undefined is a primitive datatype and also a global object that represents the intentional abssence of a value.
+
+todo a. defalut value -- when a variable is declared but not initialized , it is automatically assigned the value udefined.
+
+todo b. Return value -- fuctions in javascript that do not explicitly returen a value will return undefined.
+
+todo c. Type -- undefined is a type of its own. 
+
+todo d. comparison -- when comparing with == or ===, undefined is only equal to null.
+
+todo e. use cases -- it is often used to check if a variable has been initialized or assigned a value. 
+
+*/
+
+
+/* 
+
+* (v) Null  -- null is primitive data type in javascript that represents the intentional absence of any object value. 
+
+todo a. type -- null is an object. typeOf null returns object.
+todo b. use Cases -- it is often used to explicitly indicate that a variable is not assigned a value. 
+todo c. comparision -- when comparing with == or ===, null it is only equal to iteself and undefined. 
+todo d. debugging -- null can indicate that a variable has been explicitly set to ahve no value, which can be useful for debugging and understanding the state of your program. 
+
+*/
+
+/* 
+  * (vi) Symbol -- symbol is a unique identifier in javascript. it has immutable value that is uded to identify an object. 
+
+
+*/ 
+
 
 
 
