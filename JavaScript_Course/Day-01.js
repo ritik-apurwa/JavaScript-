@@ -19,43 +19,48 @@ todo: (b).Floats - Point Numbers: Floating-point numbers, also known as floats o
 todo: (c). Complex numbers - Complex numbers consist of a real part and an imaginary part. They are often used in scientific and engineering applications. An example of a complex number is 3 + 4i, where 3 is the real part and 4i is the imaginary part.
 
 * (ii) Strings --- strings are not modifiable or in other words imutable primitive data types are comapred by their value above we compare diffrent data values of two variables but they are not equal because they are not same.
+
 todo (a) JavaScript strings are used to represent text and are surrounded by either single or double quotes. They can contain letters, numbers, symbols, and even special characters.
 todo (b) Strings can be created using string literals, like this: let myString = 'Hello, World!'; . They can also be created using the String constructor, like this: let myString = new String('Hello, World!');
 todo (c) String Methods 
 
 /*
+
  String methods 
 
- console.log(quote.search(/you/gi)) // this will return on which index the word "you" is present.
-
-let string = " i love javascript. if you do not lvoe javascript what else can you love."
-
-console.log(string.match("love"))
-
-let pattern = /love/gi 
-console.log(string.match(pattern))
-let us exract numbers from text using a regular expression. this is not the regular expression section, do not panic! we will cover it in the next section.
-
-let txt = "In 2019, I ran 30 Kms. Now, in 2020 I ran 30 Kms in free time"
-let regEx = /\d+/
-console.log(txt.match(regEx))
-console.log(txt.match(regEx))
+ 
 1. == myString.length to check the length of the string 
+
 2. == myString.toUpperCase() to convert the string into uppercase
+
 3. == myString.toLowerCase() to convert the string into lowercase
+
 4. == myString.slice(2,5) to slice the string. like there is ritik r on 0 index , i is on 1 index and t is on 2 index and another i on 3 index and k is on 4 index. so if we write slice(2, 5) it will return "tik " and index 2 , 3 , 4 it will take index two but not take index 5. 
+
 5. == myStrign.charAt(4) this method is used for getting the character at a certain index.  Output will be "S"
+
 6. == myString.indexOf("a") this method is used for getting the index of the character. Output will be "1"
+
 7. == myString.lastindexOf("a") with this method we can get the last character of the string if there are two same characters in the string. Output will be "4"
+
 8. == myString.replace("a", "A") with this method we can change a chaacter in the string only first character will be changed if there are two same characters in the string. Output will be "JPvaScript"
+
 9. == myString.concat("is a good language") with this method we can add two strings together. Output will be "JavaScript is a good language" 
+
 10. == myString.trim() with this method we can remove the extra spaces from the string. Output will be "JavaScript"
+
 11. == console.log(javaScript.substring(2)); // this will return the substring from index 2 to the end of the string
+
 12. == console.log(javaScript.endsWith("a"))// this will return true if the string ends with "a"
+
 13. ==console.log(javaScript.startsWith("a"))// this will return true if the string starts with "a"
+
 14. == console.log(javaScript.includes("a"))// this will return true if the string includes "a"
+
 15. ==console.log(javaScript.repeat(2))// this will return the string 2 times
+
 16. == console.log(javaScript.split("")) // tis will return the string as an array
+
 17. == console.log(username.split("")) //  to split the string and return the array. array mean collection of values, and values are seperated by comma.
 
 18. == console.log(username.anchor("")) // to add space between the string.)
@@ -73,34 +78,37 @@ console.log(txt.match(regEx))
 24. ==console.log(username.padStart(4,"x")) // to pad and pad mean to add the character in the string.
 
 25. ==console.log(number.padStart(4,"x")) // padStart(targetLength, padString ) if we give 6 argument to target length and will make our output string length 6 and and change all indexing with given padString but not change the value of string,in the padEnd(targetLenght, padString) if we give 6 argument to target length and it will make out string with the lengt of six and we giv padString 2 and it will change all ending string values with 1 from end
+
 26 == console.log(number.padEnd(4,"x")) // padEnd(targetLength, padString ) first give targtlength mean your exepected length of the string and second give padString and it will add the padString at the end of the string. 
+
 27. == console.log(MobNo.length) // to get the length of the string in number. Example -01 
+
 28. ==  console.log(username.charCodeAt(username.length-1)) // to get the unicode of character here "0" has unicode of 48 
+
 29. == console.log(myString.split()) output will be "JavaScript" 
+
 30. == console.log(myString.split("")) output will be ["J","a","v","a","S", "c","r","i","p","t"] it will split every character in the string. 
 31. == console.log(myString.split(" ")) output will be ["JavaScript"]  Example -02 
+
 32. ==  console.log(username.split("").reverse().join("")) // to reverse the string all characters in this situation
+
 33. == console.log(username.split("").sort().join("")) // to sort the string.
-43. == // let quote = "Believe you can and you're halfway there."
+
+34. == // let quote = "Believe you can and you're halfway there."
 
 
+*/
+
+/*
+String Escape Characters 
+JavaScript allows the use of escape characters to include special characters in a string, such as \n for a new line, \t for a tab, \\ for a backslash, and \" for double quotes within a string.
+
+*/
+
+
+/* using a string template or string interpolation method, we can add expressions, which coulbe a value, or some operations (comparison, arithmetic operations, ternary operation)
 
 */ 
-
-
-let myString = "ritik_apurwa"
-
-console.log(myString.toUpperCase())
-
-console.log(myString.toLowerCase())
-
-console.log(myString.length) 
-
-console.log(myString.charAt(0))
-
-console.log(myString.slice(2 , 5))
-
-console.log.apply(myString.charAt)
 
 
 
